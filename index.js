@@ -17,3 +17,9 @@ speak(){
   return `${this.name} says woof!`
 }
 }
+class Bird {
+  constructor(name,sex){
+    this.name=name
+    this.sex=sex
+  }
+}
