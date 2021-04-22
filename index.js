@@ -14,6 +14,6 @@ this.name=name;
 this.sex=sex
   }
 }
-speak({
+speak(){
   return `${this.name} says woof!`
-})
+}
